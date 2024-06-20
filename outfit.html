@@ -1,0 +1,2214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Outfits</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <!------Tabs------->
+    <section id="Tabs">
+      <nav class="bg-danger fw-bold container-fluid">
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <h4 class="fw-bold mt-2">Larry wears</h4>
+          <button
+            class="nav-link active text-dark ms-5"
+            id="nav-home-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-home"
+            type="button"
+            role="tab"
+            aria-controls="nav-home"
+            aria-selected="true"
+          >
+            Outfits
+          </button>
+          <button
+            class="nav-link text-dark ms-4"
+            id="nav-shoe-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-shoe"
+            type="button"
+            role="tab"
+            aria-controls="nav-shoe"
+            aria-selected="false"
+          >
+            Shoes
+          </button>
+          <button
+            class="nav-link text-dark ms-4"
+            id="nav-contact-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-contact"
+            type="button"
+            role="tab"
+            aria-controls="nav-contact"
+            aria-selected="false"
+          >
+            Perfumes
+          </button>
+          <button
+            class="nav-link text-dark ms-4"
+            id="nav-bag-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-bag"
+            type="button"
+            role="tab"
+            aria-controls="nav-bag"
+            aria-selected="false"
+          >
+            Bags
+          </button>
+          <form class="d-flex ms-auto me-4" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-dark" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="nav-home"
+          role="tabpanel"
+          aria-labelledby="nav-home-tab"
+          tabindex="0"
+        >
+          <!------------tab2 for outfits only----------------->
+          <div class="d-flex align-items-start bg-light">
+            <div
+              class="nav flex-column nav-pills me-3 fw-bold"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <button
+                class="nav-link active mt-3 text"
+                id="v-pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-home"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-home"
+                aria-selected="true"
+              >
+                Formal Attire
+              </button>
+              <button
+                class="nav-link mt-4 text"
+                id="v-pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-profile"
+                aria-selected="false"
+              >
+                Casual
+              </button>
+
+              <button
+                class="nav-link mt-4 text"
+                id="v-pills-messages-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-messages"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-messages"
+                aria-selected="false"
+              >
+                Classic
+              </button>
+              <button
+                class="nav-link mt-4 text"
+                id="v-pills-settings-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-settings"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-settings"
+                aria-selected="false"
+              >
+                Others
+              </button>
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+              <!-------FORMAL----------->
+              <div
+                class="tab-pane fade show active container"
+                id="v-pills-home"
+                role="tabpanel"
+                aria-labelledby="v-pills-home-tab"
+                tabindex="0"
+              >
+                <!--------formal---------->
+                <div class="row mb-4 pt-3" id="fom">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-olly-3837244 (1).jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          A Classic Suit
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-reneterp-1545348.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          An Italian Suit
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-skylar-kang-6046226.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          An Halfcut Suit
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-ono-kosuki-6000169.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          A Long Suit
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-furkanfdemir-6206978.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          A Brown Suit
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-gabby-k-7691089.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Ladies Suit
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-------CASUAL----------->
+              <div
+                class="tab-pane fade container"
+                id="v-pills-profile"
+                role="tabpanel"
+                aria-labelledby="v-pills-profile-tab"
+                tabindex="0"
+              >
+                <!--------casual---------->
+                <div class="row mb-4 pt-3" id="cas">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/IMG-20240617-WA0144.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Red Top
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/IMG-20240617-WA0145.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Blue Top and Short
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/IMG-20240617-WA0147.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Black Top and Short
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/IMG-20240617-WA0166.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Brown Top
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/IMG-20240617-WA0165.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Givenchy
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/IMG-20240617-WA0164.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Ladies Top
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-------CLASSIC----------->
+              <div
+                class="tab-pane fade container pt-3"
+                id="v-pills-messages"
+                role="tabpanel"
+                aria-labelledby="v-pills-messages-tab"
+                tabindex="0"
+              >
+                <!-------classic----------->
+                <div class="row mb-4" id="">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/IMG-20240617-WA0125.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Classic Top
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/IMG-20240617-WA0129.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Wine Jean
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/IMG-20240617-WA0140.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Jean Material
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/IMG-20240617-WA0142.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Balenciaga
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/IMG-20240617-WA0155.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Hellstar
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/IMG-20240617-WA0144.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Ladies wears
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-----OTHERS------->
+              </div>
+              <!-------others----------->
+              <div
+                class="tab-pane fade container py-3"
+                id="v-pills-settings"
+                role="tabpanel"
+                aria-labelledby="v-pills-settings-tab"
+                tabindex="0"
+              >
+                <div class="row mb-4">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/IMG-20240617-WA0156.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Boods
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/IMG-20240617-WA0157.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Epresea
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/IMG-20240617-WA0153.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">Tops</h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/IMG-20240617-WA0159.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">Game</h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/IMG-20240617-WA0155.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Brown Town
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/IMG-20240617-WA0140.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          GUCCI
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="nav-shoe"
+          role="tabpanel"
+          aria-labelledby="nav-shoe-tab"
+          tabindex="0"
+        >
+          <!------------tab2 for shoes only----------------->
+          <div class="d-flex align-items-start bg-light">
+            <div
+              class="nav flex-column nav-pills me-3 fw-bold"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <button
+                class="nav-link active mt-3 text"
+                id="v-pills-sport-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-sport"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-sport"
+                aria-selected="true"
+              >
+                Sport
+              </button>
+              <button
+                class="nav-link mt-4 text"
+                id="v-pills-casual-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-casual"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-casual"
+                aria-selected="false"
+              >
+                Casual
+              </button>
+
+              <button
+                class="nav-link mt-4 text"
+                id="v-pills-business-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-business"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-business"
+                aria-selected="false"
+              >
+                Business
+              </button>
+              <button
+                class="nav-link mt-4 text"
+                id="v-pills-others-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-others"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-others"
+                aria-selected="false"
+              >
+                Others
+              </button>
+            </div>
+            <!--------shoes---------->
+            <div class="tab-content" id="v-pills-tabContent">
+              <!-------sport----------->
+              <div
+                class="tab-pane fade show active container"
+                id="v-pills-sport"
+                role="tabpanel"
+                aria-labelledby="v-pills-sport-tab"
+                tabindex="0"
+              >
+                <!--------sport---------->
+                <div class="row mb-4 pt-3">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="pics/pexels-nytheone-1070360.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">Nike</h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="pics/pexels-mnzoutfits-1598505.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Adidas
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="pics/pexels-suraj-b-1429549-2759779.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Jordan
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="pics/pexels-atomlaborblog-1161528.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          white Adidas
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-craytive-1456706.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Green Sport
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-mstudio-360817-1449844.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Red Nike
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-------CASUAL----------->
+              <div
+                class="tab-pane fade container"
+                id="v-pills-casual"
+                role="tabpanel"
+                aria-labelledby="v-pills-casual-tab"
+                tabindex="0"
+              >
+                <!--------casual---------->
+                <div class="row mb-4 pt-3">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-webdonut-19090.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Black&White
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-atomlaborblog-1161538.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          casual Black
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-pluyar-786003.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Red Nike
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-atomlaborblog-1161538.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Black Cover
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-furkanfdemir-6206978.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Black
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-skylar-kang-6046226.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Classic
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-------Business----------->
+              <div
+                class="tab-pane fade container pt-3"
+                id="v-pills-business"
+                role="tabpanel"
+                aria-labelledby="v-pills-business-tab"
+                tabindex="0"
+              >
+                <!-------classic----------->
+                <div class="row mb-4">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-giay-da-tino-1004783-2857040.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Black Cover
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-goumbik-292999.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Black with lace
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-hikaique-233312.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Cover Shoe
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-ahmed-anwar-196995-1122605 (1).jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Classic
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-gabby-k-7691089.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          First Class
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-mstudio-360817-1449844.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Casual Business
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-----OTHERS------->
+              </div>
+              <!-------others----------->
+              <div
+                class="tab-pane fade container pt-3"
+                id="v-pills-others"
+                role="tabpanel"
+                aria-labelledby="v-pills-others-tab"
+                tabindex="0"
+              >
+                <div class="row mb-4">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-mstudio-360817-1449844.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Croode
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/IMG-20240618-WA0052.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Versace
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-gabby-k-7691089.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Normal Black
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-reneterp-1545348.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">LV</h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-olly-3837244 (1).jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Native Shoe
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-webdonut-19090.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          GUCCI
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="nav-contact"
+          role="tabpanel"
+          aria-labelledby="nav-contact-tab"
+          tabindex="0"
+        >
+          <!------------tab2 for perfumes only----------------->
+          <div class="d-flex align-items-start bg-light">
+            <div
+              class="nav flex-column nav-pills me-3 fw-bold"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <button
+                class="nav-link active mt-3 text"
+                id="v-pills-hom-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-hom"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-hom"
+                aria-selected="true"
+              >
+                LV Perfumes
+              </button>
+              <button
+                class="nav-link mt-4 text"
+                id="v-pills-file-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-file"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-file"
+                aria-selected="false"
+              >
+                D&G Perfumes
+              </button>
+
+              <button
+                class="nav-link mt-4 text"
+                id="v-pills-dolce-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-dolce"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-dolce"
+                aria-selected="false"
+              >
+                Dolce
+              </button>
+              <button
+                class="nav-link mt-4 text"
+                id="v-pills-setting-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-setting"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-setting"
+                aria-selected="false"
+              >
+                Others
+              </button>
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+              <!-------lv----------->
+              <div
+                class="tab-pane fade show active container"
+                id="v-pills-hom"
+                role="tabpanel"
+                aria-labelledby="v-pills-hom-tab"
+                tabindex="0"
+              >
+                <!--------lv---------->
+                <div class="row mb-4 pt-3">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="pics/pexels-didsss-1190829.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Spell on you
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-mareefe-910341.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Attrape-reves
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-mareefe-932587.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Ombre Nomade
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-pixabay-258244.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          L'lmmensite
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-jessbaileydesign-755992.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">Sun</h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-kdjproductions-1557980.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Sun Yitan
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-------D&G----------->
+              <div
+                class="tab-pane fade container"
+                id="v-pills-file"
+                role="tabpanel"
+                aria-labelledby="v-pills-file-tab"
+                tabindex="0"
+              >
+                <!--------D&G---------->
+                <div class="row mb-4 pt-3">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-didsss-1830450.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Devotion
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-valeriya-724635.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Intence
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-mareefe-932577.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Light blue
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-mareefe-932587.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">Dove</h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-valeriya-1961792.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          The One
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-mareefe-932587.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Secrete
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-------Dolce----------->
+              <div
+                class="tab-pane fade container"
+                id="v-pills-dolce"
+                role="tabpanel"
+                aria-labelledby="v-pills-dolce-tab"
+                tabindex="0"
+              >
+                <!-------classic----------->
+                <div class="row mb-4 pt-3">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-valeriya-965731.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Intenso
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-mareefe-672051.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          La Lune
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-valeriya-1961792.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          The Only One
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-rovenimages-com-344613-949590.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">King</h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-valeriya-724635.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Sauvage
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-mareefe-910341.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          l'Amoureux
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-----OTHERS------->
+              </div>
+              <!-------others----------->
+              <div
+                class="tab-pane fade container pt-3"
+                id="v-pills-setting"
+                role="tabpanel"
+                aria-labelledby="v-pills-setting-tab"
+                tabindex="0"
+              >
+                <div class="row mb-4">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-valeriya-724635.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">Bood</h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-mareefe-672051.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Epresea
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-mareefe-910341.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Love in love
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-mareefe-932587.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Burberry
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-valeriya-724635.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Escada
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-didsss-1830450.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          GUCCI
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="nav-bag"
+          role="tabpanel"
+          aria-labelledby="nav-bag-tab"
+          tabindex="0"
+        >
+          <!------------tab2 for bag only----------------->
+          <div class="d-flex align-items-start bg-light">
+            <div
+              class="nav flex-column nav-pills me-3 fw-bold"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <button
+                class="nav-link active mt-3 text"
+                id="v-pills-ho-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-ho"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-ho"
+                aria-selected="true"
+              >
+                Outing
+              </button>
+              <button
+                class="nav-link mt-4 text"
+                id="v-pills-fil-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-fil"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-fil"
+                aria-selected="false"
+              >
+                Casual
+              </button>
+
+              <button
+                class="nav-link mt-4 text"
+                id="v-pills-do-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-do"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-do"
+                aria-selected="false"
+              >
+                Business
+              </button>
+              <button
+                class="nav-link mt-4 text"
+                id="v-pills-set-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-set"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-set"
+                aria-selected="false"
+              >
+                Others
+              </button>
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+              <!-------lv----------->
+              <div
+                class="tab-pane fade show active container"
+                id="v-pills-ho"
+                role="tabpanel"
+                aria-labelledby="v-pills-ho-tab"
+                tabindex="0"
+              >
+                <!--------lv---------->
+                <div class="row mb-4 pt-3">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="pics/pexels-harper-sunday-5658857.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          LV Bag
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-godisable-jacob-226636-934673.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Back Bag
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-kpaukshtite-1460838.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Jacquemus
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-geyonk-1152077.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Brown Cross
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-pixabay-157888.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Brown cross Bag
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-wendywei-1744651.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Brown Boods
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-------Casual----------->
+              <div
+                class="tab-pane fade container"
+                id="v-pills-fil"
+                role="tabpanel"
+                aria-labelledby="v-pills-fil-tab"
+                tabindex="0"
+              >
+                <!--------Casual---------->
+                <div class="row mb-4 pt-3">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-wendywei-1744651.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          LV Hand Bag
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-godisable-jacob-226636-1270015.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          White Bag
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-hazardos-1306262.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Fancy Brown
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-anntarazevich-7216835.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Native Bag
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-arina-krasnikova-6654123.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Brown Hand Bag
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="pics/pexels-farhan-imaan-abro-149063703-10500964.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Secrete Bag
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-------Business----------->
+              <div
+                class="tab-pane fade container"
+                id="v-pills-do"
+                role="tabpanel"
+                aria-labelledby="v-pills-do-tab"
+                tabindex="0"
+              >
+                <!-------BUSINESS----------->
+                <div class="row mb-4 pt-3">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="pics/pexels-denys-9327162.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Intenso Bag
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-alexandra-maria-58259-336372.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          La Lune Bag
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-godisable-jacob-226636-1270015.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          White Bag
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-hazardos-1306262.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Fancy Brown
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-technobulka-2977304.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Chocolate Bag
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img
+                        src="images/pexels-cottonbro-6650001.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center text-danger">
+                          Brown Hand Bag
+                        </h4>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-dark">BUY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-----OTHERS------->
+              </div>
+              <!-------others----------->
+              <div
+                class="tab-pane fade container pt-3"
+                id="v-pills-set"
+                role="tabpanel"
+                aria-labelledby="v-pills-set-tab"
+                tabindex="0"
+              >
+                <section id="last">
+                  <div class="row mb-4">
+                    <div class="col-md-4">
+                      <div class="card h-100">
+                        <img
+                          src="images/pexels-biuro-tlumaczen-13269-63778.jpg"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title text-center text-danger">
+                            Black&White
+                          </h4>
+                        </div>
+                        <div class="card-footer text-center">
+                          <a href="#" class="btn btn-outline-dark">BUY</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card h-100">
+                        <img
+                          src="images/pexels-cottonbro-6648416.jpg"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title text-center text-danger">
+                            Epresea
+                          </h4>
+                        </div>
+                        <div class="card-footer text-center">
+                          <a href="#" class="btn btn-outline-dark">BUY</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card h-100">
+                        <img
+                          src="images/pexels-vinta-supply-co-nyc-268013-842959.jpg"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title text-center text-danger">
+                            Luggage
+                          </h4>
+                        </div>
+                        <div class="card-footer text-center">
+                          <a href="#" class="btn btn-outline-dark">BUY</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card h-100">
+                        <img
+                          src="images/pexels-didsss-1447474.jpg"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title text-center text-danger">
+                            Red Back Bag
+                          </h4>
+                        </div>
+                        <div class="card-footer text-center">
+                          <a href="#" class="btn btn-outline-dark">BUY</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card h-100">
+                        <img
+                          src="images/pexels-ron-lach-9595294.jpg"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title text-center text-danger">
+                            White Bag
+                          </h4>
+                        </div>
+                        <div class="card-footer text-center">
+                          <a href="#" class="btn btn-outline-dark">BUY</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card h-100">
+                        <img
+                          src="images/pexels-adrienne-andersen-1174503-2282997.jpg"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title text-center text-danger">
+                            GUCCI
+                          </h4>
+                        </div>
+                        <div class="card-footer text-center">
+                          <a href="#" class="btn btn-outline-dark">BUY</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
